@@ -1,0 +1,16 @@
+drupal:
+  hash_salt: 5616d2e84b6c8f4bb7d0543e67a93b56a8f62806
+
+drupal_vm:
+  host: base.wndrs
+
+drush:
+  alias_group: base
+
+platform:
+  domain: base.com
+  host: us-2.platformsh.site
+
+storage:
+  s3:
+    upload_bucket: base-backups
